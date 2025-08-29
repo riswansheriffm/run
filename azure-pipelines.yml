@@ -6,26 +6,31 @@ pool:
 
 variables:
   imageName: frontend
+  acrName: bouacr.azurecr.io
 
 steps:
-- task: Checkout@1
-  displayName: 'Checkout Code'
+- checkout: self
 
 - task: Docker@2
-  displayName: 'Build and Push Frontend'
+  displayName: Login to ACR
   inputs:
-    command: buildAndPush
-    repository: $(imageName)
-    dockerfile: Dockerfile
+    command: login
     containerRegistry: bouacr-sc
-    arguments: --platform linux/amd64
-    tags: |
-      $(Build.BuildId)
-      latest
 
-# 3️⃣ Deploy to AKS
+- script: |
+    echo "Creating buildx builder..."
+    docker buildx create --use
+    echo "Building and pushing image..."
+    docker buildx build \
+      --platform linux/amd64 \
+      -t $(acrName)/$(imageName):$(Build.BuildId) \
+      -t $(acrName)/$(imageName):latest \
+      -f Dockerfile . \
+      --push
+  displayName: Build and Push Frontend
+
 - task: KubernetesManifest@1
-  displayName: 'Deploy Frontend'
+  displayName: Deploy Frontend
   inputs:
     action: deploy
     connectionType: kubernetesServiceConnection
@@ -34,4 +39,4 @@ steps:
     manifests: |
       k8s/frontend.yaml
     containers: |
-      bouacr.azurecr.io/$(imageName):$(Build.BuildId)
+      $(acrName)/$(imageName):$(Build.BuildId)
