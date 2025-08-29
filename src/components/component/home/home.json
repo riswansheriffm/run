@@ -1,0 +1,212 @@
+{
+  "data": {
+    "id": 3,
+    "documentId": "i79xwf5v5chsre7efxecgvem",
+    "isLatestNewsNeeded": true,
+    "isGraphNeeded": true,
+    "isLatestCardNeeded": true,
+    "createdAt": "2025-07-14T09:08:50.670Z",
+    "updatedAt": "2025-07-14T12:50:31.369Z",
+    "publishedAt": "2025-07-14T12:50:31.507Z",
+    "heroSlider": [
+      {
+        "id": 55,
+        "title": "Safeguarding  Uganda’s Economy",
+        "description": "Welcome to the official website of the Bank of Uganda. Learn how we promote economic stability and sustainable financial growth.",
+        "subTitle": null,
+        "image": {
+          "id": 34,
+          "documentId": "k4fepv7vbthqcki39zhrannu",
+          "name": "Image (6).png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 512,
+          "height": 249,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_Image_6_df502b43b9.png",
+              "hash": "small_Image_6_df502b43b9",
+              "mime": "image/png",
+              "name": "small_Image (6).png",
+              "path": null,
+              "size": 269.92,
+              "width": 500,
+              "height": 243,
+              "sizeInBytes": 269922
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Image_6_df502b43b9.png",
+              "hash": "thumbnail_Image_6_df502b43b9",
+              "mime": "image/png",
+              "name": "thumbnail_Image (6).png",
+              "path": null,
+              "size": 67.61,
+              "width": 245,
+              "height": 119,
+              "sizeInBytes": 67615
+            }
+          },
+          "hash": "Image_6_df502b43b9",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 80.8,
+          "url": "/uploads/Image_6_df502b43b9.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2025-07-14T12:50:16.952Z",
+          "updatedAt": "2025-07-14T12:50:16.952Z",
+          "publishedAt": "2025-07-14T12:50:16.953Z"
+        }
+      }
+    ],
+    "exchangeRates": {
+      "id": 3,
+      "title": "Today’s Official Exchange Rates",
+      "description": "Rates are updated daily and subject to market fluctuations.",
+      "exchangeRates": [
+        {
+          "id": 13,
+          "name": "USD",
+          "buy": 3646.23,
+          "sell": 3656.23
+        },
+        {
+          "id": 14,
+          "name": "GBR",
+          "buy": 4903.49,
+          "sell": 4916.94
+        },
+        {
+          "id": 15,
+          "name": "EUR",
+          "buy": 3200.15,
+          "sell": 3215.5
+        },
+        {
+          "id": 16,
+          "name": "KES",
+          "buy": 28.21,
+          "sell": 28.29
+        },
+        {
+          "id": 17,
+          "name": "TZS",
+          "buy": 1.35,
+          "sell": 1.35
+        },
+        {
+          "id": 18,
+          "name": "ZAR",
+          "buy": 203.48,
+          "sell": 204.04
+        }
+      ]
+    },
+    "quote": {
+      "id": 3,
+      "Quote": "We believe that the strong partnership between the Bank of \nUganda and the banking sector has been constructive and will remain conducive for I&M Bank (U) Ltd.",
+      "name": "Michael Atingi-Ego,",
+      "role": "Governor, Bank of Uganda",
+      "icon": {
+        "id": 32,
+        "documentId": "bwz577ap4tf4d0smopf4rkjp",
+        "name": "Quote.png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 119,
+        "height": 89,
+        "formats": null,
+        "hash": "Quote_f89fad2746",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 0.67,
+        "url": "/uploads/Quote_f89fad2746.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-14T09:30:39.431Z",
+        "updatedAt": "2025-07-14T09:30:39.431Z",
+        "publishedAt": "2025-07-14T09:30:39.432Z"
+      }
+    },
+    "FAQ": {
+      "id": 3,
+      "title": "Have a Question? (FAQs)",
+      "description": "Find quick answers to common questions about how we operate, invest, and innovate.",
+      "backgroundImage": {
+        "id": 33,
+        "documentId": "jlofin8r7be169umf64yps69",
+        "name": "_Vector map.png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 826,
+        "height": 1074,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "/uploads/large_Vector_map_0f7ff37b05.png",
+            "hash": "large_Vector_map_0f7ff37b05",
+            "mime": "image/png",
+            "name": "large__Vector map.png",
+            "path": null,
+            "size": 435.99,
+            "width": 769,
+            "height": 1000,
+            "sizeInBytes": 435993
+          },
+          "small": {
+            "ext": ".png",
+            "url": "/uploads/small_Vector_map_0f7ff37b05.png",
+            "hash": "small_Vector_map_0f7ff37b05",
+            "mime": "image/png",
+            "name": "small__Vector map.png",
+            "path": null,
+            "size": 146.24,
+            "width": 385,
+            "height": 500,
+            "sizeInBytes": 146244
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "/uploads/medium_Vector_map_0f7ff37b05.png",
+            "hash": "medium_Vector_map_0f7ff37b05",
+            "mime": "image/png",
+            "name": "medium__Vector map.png",
+            "path": null,
+            "size": 285.1,
+            "width": 577,
+            "height": 750,
+            "sizeInBytes": 285099
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "/uploads/thumbnail_Vector_map_0f7ff37b05.png",
+            "hash": "thumbnail_Vector_map_0f7ff37b05",
+            "mime": "image/png",
+            "name": "thumbnail__Vector map.png",
+            "path": null,
+            "size": 21.22,
+            "width": 120,
+            "height": 156,
+            "sizeInBytes": 21223
+          }
+        },
+        "hash": "Vector_map_0f7ff37b05",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 23.12,
+        "url": "/uploads/Vector_map_0f7ff37b05.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-14T09:33:13.495Z",
+        "updatedAt": "2025-07-14T09:33:13.495Z",
+        "publishedAt": "2025-07-14T09:33:13.496Z"
+      }
+    }
+  },
+  "meta": {}
+}

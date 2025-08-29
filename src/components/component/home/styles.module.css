@@ -1,0 +1,22 @@
+.responsiveIframe {
+  zoom: 50%;
+}
+
+@media (max-width: 1024px) {
+  .responsiveIframe {
+    zoom: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsiveIframe {
+    zoom: 22%;
+  }
+}
+
+.blur::before {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(20px);
+}

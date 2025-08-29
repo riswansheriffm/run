@@ -1,0 +1,9 @@
+.option {
+  font-size: 12px;
+  cursor: pointer !important ;
+  font-weight: 400 !important;
+  border-radius: 190px !important;
+  min-width: 100px; /* Adjust dropdown width */
+  padding: 6px 12px;
+  font-size: 12px;
+}

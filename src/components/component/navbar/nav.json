@@ -1,0 +1,191 @@
+{
+  "data": {
+    "id": 4,
+    "documentId": "n88rml2vtxdf2jx966xdvvqt",
+    "createdAt": "2025-07-06T10:09:39.403Z",
+    "updatedAt": "2025-07-07T13:15:19.240Z",
+    "publishedAt": "2025-07-07T13:15:19.350Z",
+    "locale": "en",
+    "quickLinks": {
+      "id": 4,
+      "email": "info@bou.or.ug",
+      "phoneNumber": "(+256)-414-258-441/6",
+      "IsLanguageSwitchNeeded": true
+    },
+    "menus": {
+      "id": 4,
+      "items": [
+        {
+          "id": 14,
+          "label": "About Us",
+          "items": [
+            {
+              "id": 61,
+              "title": "About Us",
+              "link": "/about_us",
+              "description": "Overview, Vision and Mission"
+            },
+            {
+              "id": 62,
+              "title": "History & Legacy",
+              "link": "/history_legacy",
+              "description": null
+            },
+            {
+              "id": 63,
+              "title": "Governance & Management",
+              "link": "/governance_management",
+              "description": null
+            },
+            {
+              "id": 64,
+              "title": "Directorates & Departments",
+              "link": "/directorates_departments",
+              "description": null
+            },
+            {
+              "id": 65,
+              "title": "Legal Mandate (BoU Act)",
+              "link": "legal_mandate",
+              "description": null
+            },
+            {
+              "id": 66,
+              "title": "Career Opportunities",
+              "link": "/career_opportunities",
+              "description": null
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "label": "Core Functions",
+          "items": [
+            {
+              "id": 67,
+              "title": "Monetary Policy",
+              "link": "/monetary_policy",
+              "description": null
+            },
+            {
+              "id": 68,
+              "title": "Supervision",
+              "link": "/supervision",
+              "description": null
+            },
+            {
+              "id": 69,
+              "title": "Financial Markets",
+              "link": "/financial_markets",
+              "description": null
+            },
+            {
+              "id": 70,
+              "title": "Currency Management",
+              "link": "/currency_management",
+              "description": null
+            },
+            {
+              "id": 71,
+              "title": "Financial Infrastructure & Innovation",
+              "link": "/financial_infrastructure_innovation",
+              "description": null
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "label": "News & Publications",
+          "items": [
+            {
+              "id": 72,
+              "title": "Press Releases & Media Briefings",
+              "link": "/press_releases_media_briefings",
+              "description": null
+            },
+            {
+              "id": 73,
+              "title": "Governor, Deputy & Executive Speeches",
+              "link": "/governor_deputy_executive_speeches",
+              "description": null
+            },
+            {
+              "id": 74,
+              "title": "Events Calendar & Lecture Series",
+              "link": "/events_calendar_lecture_series",
+              "description": null
+            },
+            {
+              "id": 75,
+              "title": "Publications",
+              "link": "/publications",
+              "description": null
+            },
+            {
+              "id": 76,
+              "title": "Infographics",
+              "link": "/infographics",
+              "description": null
+            },
+            {
+              "id": 77,
+              "title": "Explainers",
+              "link": "/explainers",
+              "description": null
+            },
+            {
+              "id": 78,
+              "title": "Working Papers",
+              "link": "/working_papers",
+              "description": null
+            },
+            {
+              "id": 79,
+              "title": "Journals",
+              "link": "/journals",
+              "description": null
+            },
+            {
+              "id": 80,
+              "title": "Circulars & Guidance Notes",
+              "link": "/circulars_guidance_notes",
+              "description": null
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "label": "Data & Statistics",
+          "items": []
+        },
+        {
+          "id": 13,
+          "label": "Govt Schemes & Financial Inclusion",
+          "items": []
+        }
+      ],
+      "logo": {
+        "id": 1,
+        "documentId": "dm0ebmz9feuxbjinjmzd9wls",
+        "name": "image (1).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 108,
+        "height": 104,
+        "formats": null,
+        "hash": "image_1_1f2876b897",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 5.41,
+        "url": "/uploads/image_1_1f2876b897.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-06T10:04:55.271Z",
+        "updatedAt": "2025-07-06T10:04:55.271Z",
+        "publishedAt": "2025-07-06T10:04:55.272Z"
+      }
+    }
+  },
+  "meta": {}
+}

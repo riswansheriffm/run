@@ -1,0 +1,490 @@
+{
+  "data": {
+    "id": 5,
+    "documentId": "hx40ub891zpevi4juqws1cd3",
+    "createdAt": "2025-07-10T12:04:22.359Z",
+    "updatedAt": "2025-07-10T13:24:07.720Z",
+    "publishedAt": "2025-07-10T13:24:07.878Z",
+    "heroSlider": [
+      {
+        "id": 29,
+        "title": "Big Topic or Popular Topic to Push Goes Here",
+        "description": "Some content summary about this press release goes here. Can be 2-3 lines max.",
+        "subTitle": "Jan 2025 - Popular",
+        "image": {
+          "id": 19,
+          "documentId": "gkobllsvexkqcosdpd9x4mmi",
+          "name": "Bg images.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1920,
+          "height": 1020,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_Bg_images_e8b141b574.png",
+              "hash": "large_Bg_images_e8b141b574",
+              "mime": "image/png",
+              "name": "large_Bg images.png",
+              "path": null,
+              "size": 1112.35,
+              "width": 1000,
+              "height": 531,
+              "sizeInBytes": 1112346
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_Bg_images_e8b141b574.png",
+              "hash": "small_Bg_images_e8b141b574",
+              "mime": "image/png",
+              "name": "small_Bg images.png",
+              "path": null,
+              "size": 307.38,
+              "width": 500,
+              "height": 266,
+              "sizeInBytes": 307376
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_Bg_images_e8b141b574.png",
+              "hash": "medium_Bg_images_e8b141b574",
+              "mime": "image/png",
+              "name": "medium_Bg images.png",
+              "path": null,
+              "size": 652.57,
+              "width": 750,
+              "height": 398,
+              "sizeInBytes": 652569
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Bg_images_e8b141b574.png",
+              "hash": "thumbnail_Bg_images_e8b141b574",
+              "mime": "image/png",
+              "name": "thumbnail_Bg images.png",
+              "path": null,
+              "size": 83.27,
+              "width": 245,
+              "height": 130,
+              "sizeInBytes": 83265
+            }
+          },
+          "hash": "Bg_images_e8b141b574",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 824.4,
+          "url": "/uploads/Bg_images_e8b141b574.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2025-07-10T11:48:01.711Z",
+          "updatedAt": "2025-07-10T11:48:01.711Z",
+          "publishedAt": "2025-07-10T11:48:01.712Z"
+        }
+      },
+      {
+        "id": 30,
+        "title": "Big Topic or Popular Topic to Push Goes Here",
+        "description": "Some content summary about this press release goes here. Can be 2-3 lines max.",
+        "subTitle": "Jan 2025 - Popular",
+        "image": {
+          "id": 19,
+          "documentId": "gkobllsvexkqcosdpd9x4mmi",
+          "name": "Bg images.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1920,
+          "height": 1020,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_Bg_images_e8b141b574.png",
+              "hash": "large_Bg_images_e8b141b574",
+              "mime": "image/png",
+              "name": "large_Bg images.png",
+              "path": null,
+              "size": 1112.35,
+              "width": 1000,
+              "height": 531,
+              "sizeInBytes": 1112346
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_Bg_images_e8b141b574.png",
+              "hash": "small_Bg_images_e8b141b574",
+              "mime": "image/png",
+              "name": "small_Bg images.png",
+              "path": null,
+              "size": 307.38,
+              "width": 500,
+              "height": 266,
+              "sizeInBytes": 307376
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_Bg_images_e8b141b574.png",
+              "hash": "medium_Bg_images_e8b141b574",
+              "mime": "image/png",
+              "name": "medium_Bg images.png",
+              "path": null,
+              "size": 652.57,
+              "width": 750,
+              "height": 398,
+              "sizeInBytes": 652569
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Bg_images_e8b141b574.png",
+              "hash": "thumbnail_Bg_images_e8b141b574",
+              "mime": "image/png",
+              "name": "thumbnail_Bg images.png",
+              "path": null,
+              "size": 83.27,
+              "width": 245,
+              "height": 130,
+              "sizeInBytes": 83265
+            }
+          },
+          "hash": "Bg_images_e8b141b574",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 824.4,
+          "url": "/uploads/Bg_images_e8b141b574.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2025-07-10T11:48:01.711Z",
+          "updatedAt": "2025-07-10T11:48:01.711Z",
+          "publishedAt": "2025-07-10T11:48:01.712Z"
+        }
+      }
+    ],
+    "note": {
+      "id": 5,
+      "subTitle": "Trusted Source",
+      "title": "Official Press Releases from Bank of Uganda",
+      "description": "Stay informed with official updates from the Bank of Uganda. From monetary policy decisions to financial sector developments, our press releases keep you up to date with key announcements and insights."
+    },
+    "pressRelease": [
+      {
+        "id": 8,
+        "year": "2024",
+        "items": [
+          {
+            "id": 11,
+            "month": "December",
+            "items": [
+              {
+                "id": 22,
+                "category": "Press Releases",
+                "items": [
+                  {
+                    "id": 22,
+                    "title": "Managing Uganda's Economy in 2024 and Beyond MPS ",
+                    "description": "In a year marked by global uncertainties and domestic challenges, Uganda's economy has demonstrated remarkable resilience and progress. A key contributor in this resilience has been the Bank of Uganda (BoU), whose proactive and adaptive monetary policy and financial sector regulatory actions have played a crucial role in stabilising the economy.",
+                    "file": {
+                      "id": 20,
+                      "documentId": "op88qyjuyk27j0qvqhyeyk7n",
+                      "name": "Dec31_Managing-Ugs-economy-FINAL.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "Dec31_Managing_Ugs_economy_FINAL_814c40c3bf",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 2521.69,
+                      "url": "/uploads/Dec31_Managing_Ugs_economy_FINAL_814c40c3bf.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2025-07-10T12:18:00.956Z",
+                      "updatedAt": "2025-07-10T12:18:00.956Z",
+                      "publishedAt": "2025-07-10T12:18:00.957Z"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 23,
+                "category": "Governor Speeches",
+                "items": [
+                  {
+                    "id": 23,
+                    "title": "Governor's Remarks at Ayago Health Centre III Handover",
+                    "description": null,
+                    "file": {
+                      "id": 21,
+                      "documentId": "r416m49chzza0rh5fh3ii3s1",
+                      "name": "Gov_Remarks_AyagoHealthCentreIII_Handover.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "Gov_Remarks_Ayago_Health_Centre_III_Handover_353fb52ada",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 1228.93,
+                      "url": "/uploads/Gov_Remarks_Ayago_Health_Centre_III_Handover_353fb52ada.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2025-07-10T12:20:55.295Z",
+                      "updatedAt": "2025-07-10T12:20:55.295Z",
+                      "publishedAt": "2025-07-10T12:20:55.295Z"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 24,
+                "category": "Press Briefing",
+                "items": [
+                  {
+                    "id": 24,
+                    "title": "Bank of Uganda to Review Proposed Changes to Standard Chartered Bank’s Corporate Banking Model",
+                    "description": null,
+                    "file": {
+                      "id": 22,
+                      "documentId": "o55tgr1h2j1mf89lhd5b31z5",
+                      "name": "Bank-of-Uganda-to-Review-Proposed-Changes-to-Standard-Chartered-Banks-Corporate-Banking-Model.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "Bank_of_Uganda_to_Review_Proposed_Changes_to_Standard_Chartered_Banks_Corporate_Banking_Model_4117d40c42",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 464.04,
+                      "url": "/uploads/Bank_of_Uganda_to_Review_Proposed_Changes_to_Standard_Chartered_Banks_Corporate_Banking_Model_4117d40c42.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2025-07-10T12:26:14.432Z",
+                      "updatedAt": "2025-07-10T12:26:14.432Z",
+                      "publishedAt": "2025-07-10T12:26:14.433Z"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "category": "Press Releases",
+                "items": [
+                  {
+                    "id": 22,
+                    "title": "Managing Uganda's Economy in 2024 and Beyond MPS ",
+                    "description": "In a year marked by global uncertainties and domestic challenges, Uganda's economy has demonstrated remarkable resilience and progress. A key contributor in this resilience has been the Bank of Uganda (BoU), whose proactive and adaptive monetary policy and financial sector regulatory actions have played a crucial role in stabilising the economy.",
+                    "file": {
+                      "id": 20,
+                      "documentId": "op88qyjuyk27j0qvqhyeyk7n",
+                      "name": "Dec31_Managing-Ugs-economy-FINAL.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "Dec31_Managing_Ugs_economy_FINAL_814c40c3bf",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 2521.69,
+                      "url": "/uploads/Dec31_Managing_Ugs_economy_FINAL_814c40c3bf.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2025-07-10T12:18:00.956Z",
+                      "updatedAt": "2025-07-10T12:18:00.956Z",
+                      "publishedAt": "2025-07-10T12:18:00.957Z"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 23,
+                "category": "Governor Speeches",
+                "items": [
+                  {
+                    "id": 23,
+                    "title": "Governor's Remarks at Ayago Health Centre III Handover",
+                    "description": null,
+                    "file": {
+                      "id": 21,
+                      "documentId": "r416m49chzza0rh5fh3ii3s1",
+                      "name": "Gov_Remarks_AyagoHealthCentreIII_Handover.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "Gov_Remarks_Ayago_Health_Centre_III_Handover_353fb52ada",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 1228.93,
+                      "url": "/uploads/Gov_Remarks_Ayago_Health_Centre_III_Handover_353fb52ada.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2025-07-10T12:20:55.295Z",
+                      "updatedAt": "2025-07-10T12:20:55.295Z",
+                      "publishedAt": "2025-07-10T12:20:55.295Z"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 24,
+                "category": "Press Briefing",
+                "items": [
+                  {
+                    "id": 24,
+                    "title": "Bank of Uganda to Review Proposed Changes to Standard Chartered Bank’s Corporate Banking Model",
+                    "description": null,
+                    "file": {
+                      "id": 22,
+                      "documentId": "o55tgr1h2j1mf89lhd5b31z5",
+                      "name": "Bank-of-Uganda-to-Review-Proposed-Changes-to-Standard-Chartered-Banks-Corporate-Banking-Model.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "Bank_of_Uganda_to_Review_Proposed_Changes_to_Standard_Chartered_Banks_Corporate_Banking_Model_4117d40c42",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 464.04,
+                      "url": "/uploads/Bank_of_Uganda_to_Review_Proposed_Changes_to_Standard_Chartered_Banks_Corporate_Banking_Model_4117d40c42.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2025-07-10T12:26:14.432Z",
+                      "updatedAt": "2025-07-10T12:26:14.432Z",
+                      "publishedAt": "2025-07-10T12:26:14.433Z"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 24,
+                "category": "Press Briefing",
+                "items": [
+                  {
+                    "id": 24,
+                    "title": "Bank of Uganda to Review Proposed Changes to Standard Chartered Bank’s Corporate Banking Model",
+                    "description": null,
+                    "file": {
+                      "id": 22,
+                      "documentId": "o55tgr1h2j1mf89lhd5b31z5",
+                      "name": "Bank-of-Uganda-to-Review-Proposed-Changes-to-Standard-Chartered-Banks-Corporate-Banking-Model.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "Bank_of_Uganda_to_Review_Proposed_Changes_to_Standard_Chartered_Banks_Corporate_Banking_Model_4117d40c42",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 464.04,
+                      "url": "/uploads/Bank_of_Uganda_to_Review_Proposed_Changes_to_Standard_Chartered_Banks_Corporate_Banking_Model_4117d40c42.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2025-07-10T12:26:14.432Z",
+                      "updatedAt": "2025-07-10T12:26:14.432Z",
+                      "publishedAt": "2025-07-10T12:26:14.433Z"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "year": "2025",
+        "items": [
+          {
+            "id": 12,
+            "month": "January",
+            "items": [
+              {
+                "id": 25,
+                "category": "Press Releases",
+                "items": [
+                  {
+                    "id": 25,
+                    "title": "Nonrenewal Empire Forex Bureau License",
+                    "description": null,
+                    "file": {
+                      "id": 23,
+                      "documentId": "pl6932n78rjhyb364gwy1kyp",
+                      "name": "Nonrenewal-Empire-forex-bureau-license.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "Nonrenewal_Empire_forex_bureau_license_9d4c05b6ab",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 242.75,
+                      "url": "/uploads/Nonrenewal_Empire_forex_bureau_license_9d4c05b6ab.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2025-07-10T12:51:16.184Z",
+                      "updatedAt": "2025-07-10T12:51:16.184Z",
+                      "publishedAt": "2025-07-10T12:51:16.185Z"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "month": "February",
+            "items": [
+              {
+                "id": 26,
+                "category": "Press Releases",
+                "items": [
+                  {
+                    "id": 26,
+                    "title": "Monetary Policy statement February 2025",
+                    "description": null,
+                    "file": {
+                      "id": 24,
+                      "documentId": "ll9iwpri3mvfqlv9h8ipdzst",
+                      "name": "Monetary-Policy-statement-February-2025.pdf",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": null,
+                      "height": null,
+                      "formats": null,
+                      "hash": "Monetary_Policy_statement_February_2025_a8792d2c8a",
+                      "ext": ".pdf",
+                      "mime": "application/pdf",
+                      "size": 526.43,
+                      "url": "/uploads/Monetary_Policy_statement_February_2025_a8792d2c8a.pdf",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2025-07-10T12:57:28.732Z",
+                      "updatedAt": "2025-07-10T12:57:28.732Z",
+                      "publishedAt": "2025-07-10T12:57:28.732Z"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {}
+}

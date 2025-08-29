@@ -1,0 +1,698 @@
+{
+  "data": {
+    "id": 8,
+    "documentId": "cq7bvoj2dyxz7ha6l1zkjttn",
+    "createdAt": "2025-07-08T08:57:11.825Z",
+    "updatedAt": "2025-07-10T12:08:51.769Z",
+    "publishedAt": "2025-07-10T12:08:51.968Z",
+    "heroSlider": [
+      {
+        "id": 21,
+        "title": "Guardians of  Uganda’s Economy",
+        "description": "Uganda’s Central Bank since 1966—partnering with the Ministry of Finance to keep prices stable and our financial system secure.",
+        "subTitle": null,
+        "image": {
+          "id": 9,
+          "documentId": "g6x0u8ciwuooz00uuo55u82c",
+          "name": "Bg images.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1024,
+          "height": 600,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_Bg_images_7bead5c7c8.png",
+              "hash": "large_Bg_images_7bead5c7c8",
+              "mime": "image/png",
+              "name": "large_Bg images.png",
+              "path": null,
+              "size": 544.5,
+              "width": 1000,
+              "height": 586,
+              "sizeInBytes": 544503
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_Bg_images_7bead5c7c8.png",
+              "hash": "small_Bg_images_7bead5c7c8",
+              "mime": "image/png",
+              "name": "small_Bg images.png",
+              "path": null,
+              "size": 118.6,
+              "width": 500,
+              "height": 293,
+              "sizeInBytes": 118596
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_Bg_images_7bead5c7c8.png",
+              "hash": "medium_Bg_images_7bead5c7c8",
+              "mime": "image/png",
+              "name": "medium_Bg images.png",
+              "path": null,
+              "size": 311.52,
+              "width": 750,
+              "height": 439,
+              "sizeInBytes": 311515
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Bg_images_7bead5c7c8.png",
+              "hash": "thumbnail_Bg_images_7bead5c7c8",
+              "mime": "image/png",
+              "name": "thumbnail_Bg images.png",
+              "path": null,
+              "size": 30.34,
+              "width": 245,
+              "height": 144,
+              "sizeInBytes": 30343
+            }
+          },
+          "hash": "Bg_images_7bead5c7c8",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 86.18,
+          "url": "/uploads/Bg_images_7bead5c7c8.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2025-07-08T08:49:47.990Z",
+          "updatedAt": "2025-07-08T12:18:57.170Z",
+          "publishedAt": "2025-07-08T08:49:47.992Z"
+        }
+      },
+      {
+        "id": 22,
+        "title": "Guardians of  Uganda’s Economy - 2",
+        "description": "2 Uganda’s Central Bank since 1966—partnering with the Ministry of Finance to keep prices stable and our financial system secure. 2 ",
+        "subTitle": null,
+        "image": {
+          "id": 9,
+          "documentId": "g6x0u8ciwuooz00uuo55u82c",
+          "name": "Bg images.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1024,
+          "height": 600,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_Bg_images_7bead5c7c8.png",
+              "hash": "large_Bg_images_7bead5c7c8",
+              "mime": "image/png",
+              "name": "large_Bg images.png",
+              "path": null,
+              "size": 544.5,
+              "width": 1000,
+              "height": 586,
+              "sizeInBytes": 544503
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_Bg_images_7bead5c7c8.png",
+              "hash": "small_Bg_images_7bead5c7c8",
+              "mime": "image/png",
+              "name": "small_Bg images.png",
+              "path": null,
+              "size": 118.6,
+              "width": 500,
+              "height": 293,
+              "sizeInBytes": 118596
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_Bg_images_7bead5c7c8.png",
+              "hash": "medium_Bg_images_7bead5c7c8",
+              "mime": "image/png",
+              "name": "medium_Bg images.png",
+              "path": null,
+              "size": 311.52,
+              "width": 750,
+              "height": 439,
+              "sizeInBytes": 311515
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_Bg_images_7bead5c7c8.png",
+              "hash": "thumbnail_Bg_images_7bead5c7c8",
+              "mime": "image/png",
+              "name": "thumbnail_Bg images.png",
+              "path": null,
+              "size": 30.34,
+              "width": 245,
+              "height": 144,
+              "sizeInBytes": 30343
+            }
+          },
+          "hash": "Bg_images_7bead5c7c8",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 86.18,
+          "url": "/uploads/Bg_images_7bead5c7c8.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "createdAt": "2025-07-08T08:49:47.990Z",
+          "updatedAt": "2025-07-08T12:18:57.170Z",
+          "publishedAt": "2025-07-08T08:49:47.992Z"
+        }
+      }
+    ],
+    "overview": {
+      "id": 25,
+      "title": "Overview",
+      "description": "The Bank of Uganda (BoU) is the Central Bank of the Republic of Uganda, keeping prices stable, the financial system secure, and the economy growing. We set and implement monetary policy, issue and manage the Ugandan shilling, and oversee banks and payment systems. We also safeguard foreign reserves, serve as lender of last resort, and champion financial inclusion across all communities."
+    },
+    "visionMission": {
+      "id": 10,
+      "ourVision": {
+        "id": 6,
+        "title": "OUR VISION",
+        "description": "To be a centre of excellence in upholding macroeconomic stability.",
+        "images": [
+          {
+            "id": 10,
+            "documentId": "qsbz1hwffaeaj0agx0f3jxe5",
+            "name": "raisingGraph.png",
+            "alternativeText": "raisingGraph",
+            "caption": null,
+            "width": 464,
+            "height": 130,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_raising_Graph_9b45e9adb1.png",
+                "hash": "thumbnail_raising_Graph_9b45e9adb1",
+                "mime": "image/png",
+                "name": "thumbnail_raisingGraph.png",
+                "path": null,
+                "size": 16.14,
+                "width": 245,
+                "height": 69,
+                "sizeInBytes": 16141
+              }
+            },
+            "hash": "raising_Graph_9b45e9adb1",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 11.53,
+            "url": "/uploads/raising_Graph_9b45e9adb1.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T08:54:52.589Z",
+            "updatedAt": "2025-07-08T08:54:52.589Z",
+            "publishedAt": "2025-07-08T08:54:52.591Z"
+          },
+          {
+            "id": 11,
+            "documentId": "b1hpfk2nls5s3vdmj204ot52",
+            "name": "moneyHandling.png",
+            "alternativeText": "moneyHandling",
+            "caption": null,
+            "width": 226,
+            "height": 144,
+            "formats": null,
+            "hash": "money_Handling_a622216141",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 13.66,
+            "url": "/uploads/money_Handling_a622216141.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T08:54:52.613Z",
+            "updatedAt": "2025-07-08T08:54:52.613Z",
+            "publishedAt": "2025-07-08T08:54:52.613Z"
+          },
+          {
+            "id": 12,
+            "documentId": "eartw72tl34wx9jl15y1yslv",
+            "name": "stocks.png",
+            "alternativeText": "stocks",
+            "caption": null,
+            "width": 331,
+            "height": 240,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_stocks_3da64f5e72.png",
+                "hash": "thumbnail_stocks_3da64f5e72",
+                "mime": "image/png",
+                "name": "thumbnail_stocks.png",
+                "path": null,
+                "size": 57.06,
+                "width": 215,
+                "height": 156,
+                "sizeInBytes": 57064
+              }
+            },
+            "hash": "stocks_3da64f5e72",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 37.96,
+            "url": "/uploads/stocks_3da64f5e72.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T08:54:52.727Z",
+            "updatedAt": "2025-07-08T08:54:52.727Z",
+            "publishedAt": "2025-07-08T08:54:52.728Z"
+          },
+          {
+            "id": 13,
+            "documentId": "ilzxpqkwfz1a3cc010s7yxvv",
+            "name": "notes.png",
+            "alternativeText": "notes",
+            "caption": null,
+            "width": 226,
+            "height": 144,
+            "formats": null,
+            "hash": "notes_c61e346d72",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 21.57,
+            "url": "/uploads/notes_c61e346d72.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T08:54:52.845Z",
+            "updatedAt": "2025-07-08T08:54:52.845Z",
+            "publishedAt": "2025-07-08T08:54:52.845Z"
+          },
+          {
+            "id": 14,
+            "documentId": "miknoask52vd4r8e5zxf0md3",
+            "name": "buildingOfBoU.png",
+            "alternativeText": "buildingOfBoU",
+            "caption": null,
+            "width": 225,
+            "height": 301,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_building_Of_Bo_U_eacce2b3ed.png",
+                "hash": "thumbnail_building_Of_Bo_U_eacce2b3ed",
+                "mime": "image/png",
+                "name": "thumbnail_buildingOfBoU.png",
+                "path": null,
+                "size": 46.71,
+                "width": 117,
+                "height": 156,
+                "sizeInBytes": 46713
+              }
+            },
+            "hash": "building_Of_Bo_U_eacce2b3ed",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 36.92,
+            "url": "/uploads/building_Of_Bo_U_eacce2b3ed.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T08:54:52.916Z",
+            "updatedAt": "2025-07-08T08:54:52.916Z",
+            "publishedAt": "2025-07-08T08:54:52.917Z"
+          }
+        ]
+      },
+      "ourMission": {
+        "id": 26,
+        "title": "Our Mission",
+        "description": "To promote price stability and a sound financial system in support of socio-economic transformation in Uganda."
+      }
+    },
+    "ourMandate": {
+      "id": 10,
+      "title": "Our Mandate",
+      "description": "The act that governs our operations",
+      "items": [
+        {
+          "id": 37,
+          "title": "Issue Ugandan Currency",
+          "description": "The only institution allowed to design, print, issue and manage banknotes and coins in Uganda.",
+          "image": null
+        },
+        {
+          "id": 38,
+          "title": "Formulate and Implement Monetary Policies",
+          "description": "Regulates the supply & demand for money in the economy to maintain the value of money and to ensure Price Stability.",
+          "image": null
+        },
+        {
+          "id": 39,
+          "title": "Overseeing Financial Institutions",
+          "description": "Oversees financial institutions to ensure regulations compliance, safeguard deposits, and promote financial system stability.",
+          "image": null
+        },
+        {
+          "id": 40,
+          "title": "Banker to Government",
+          "description": "Provides banking services to Government Ministries, Departments and Agencies.",
+          "image": null
+        }
+      ]
+    },
+    "governanceManagement": {
+      "id": 9,
+      "title": "Governance & Management",
+      "description": "In accordance with Article 161 of the Constitution of the Republic of Uganda, the authority of the Bank of Uganda is vested in a Board comprising the Governor, Deputy Governor, and up to five other members.",
+      "subDescription": "The Governor and Deputy Governor are appointed by the President, subject to parliamentary approval. They each serve a five-year term and may be reappointed.\\n\n\nThese positions are designated as public offices, with the Governor serving as Chairperson and the Deputy Governor as Deputy Chairperson of the Board.\\n",
+      "link": {
+        "id": 93,
+        "text": "View BoU’s Structure",
+        "link": "/bou_structure"
+      },
+      "banner": {
+        "id": 15,
+        "documentId": "i2y0r4onkrsbfalbgcrdve0u",
+        "name": "image (3).png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1920,
+        "height": 734,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "/uploads/large_image_3_1d80e20354.png",
+            "hash": "large_image_3_1d80e20354",
+            "mime": "image/png",
+            "name": "large_image (3).png",
+            "path": null,
+            "size": 865.7,
+            "width": 1000,
+            "height": 382,
+            "sizeInBytes": 865696
+          },
+          "small": {
+            "ext": ".png",
+            "url": "/uploads/small_image_3_1d80e20354.png",
+            "hash": "small_image_3_1d80e20354",
+            "mime": "image/png",
+            "name": "small_image (3).png",
+            "path": null,
+            "size": 237.03,
+            "width": 500,
+            "height": 191,
+            "sizeInBytes": 237031
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "/uploads/medium_image_3_1d80e20354.png",
+            "hash": "medium_image_3_1d80e20354",
+            "mime": "image/png",
+            "name": "medium_image (3).png",
+            "path": null,
+            "size": 508.08,
+            "width": 750,
+            "height": 287,
+            "sizeInBytes": 508078
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "/uploads/thumbnail_image_3_1d80e20354.png",
+            "hash": "thumbnail_image_3_1d80e20354",
+            "mime": "image/png",
+            "name": "thumbnail_image (3).png",
+            "path": null,
+            "size": 64.07,
+            "width": 245,
+            "height": 94,
+            "sizeInBytes": 64073
+          }
+        },
+        "hash": "image_3_1d80e20354",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 628.05,
+        "url": "/uploads/image_3_1d80e20354.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-08T08:59:17.932Z",
+        "updatedAt": "2025-07-08T08:59:17.932Z",
+        "publishedAt": "2025-07-08T08:59:17.933Z"
+      }
+    },
+    "boardOfDirectors": {
+      "id": 9,
+      "title": "Board of Directors",
+      "description": "Under Article 161(2) of the 1995 Constitution of Uganda, the authority of the Bank of Uganda is vested in its Board of Directors. The Board is a unitary governing body responsible for the overall management, strategic direction, and long-term success of the Bank.",
+      "link": {
+        "id": 94,
+        "text": "View More Details",
+        "link": "/boardofdirectors"
+      },
+      "items": [
+        {
+          "id": 25,
+          "name": "Michael Atingi-Ego",
+          "description": "Governor of the Bank of Uganda",
+          "image": {
+            "id": 16,
+            "documentId": "ti17jkg82e13i4zx5tfkfhet",
+            "name": "g1.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 510,
+            "height": 671,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "/uploads/small_g1_4a8c7421ba.png",
+                "hash": "small_g1_4a8c7421ba",
+                "mime": "image/png",
+                "name": "small_g1.png",
+                "path": null,
+                "size": 416.13,
+                "width": 380,
+                "height": 500,
+                "sizeInBytes": 416133
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_g1_4a8c7421ba.png",
+                "hash": "thumbnail_g1_4a8c7421ba",
+                "mime": "image/png",
+                "name": "thumbnail_g1.png",
+                "path": null,
+                "size": 46.83,
+                "width": 119,
+                "height": 156,
+                "sizeInBytes": 46833
+              }
+            },
+            "hash": "g1_4a8c7421ba",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 209.82,
+            "url": "/uploads/g1_4a8c7421ba.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T09:03:20.324Z",
+            "updatedAt": "2025-07-08T09:03:20.324Z",
+            "publishedAt": "2025-07-08T09:03:20.324Z"
+          }
+        },
+        {
+          "id": 26,
+          "name": "Prof. Augustus Nuwagaba",
+          "description": null,
+          "image": {
+            "id": 17,
+            "documentId": "mjuqafhisu0kg84pxhoj8a7k",
+            "name": "b9d647e36e7948cf24567a2f99a442246a18f4ac.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 800,
+            "height": 1481,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672.jpg",
+                "hash": "large_b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672",
+                "mime": "image/jpeg",
+                "name": "large_b9d647e36e7948cf24567a2f99a442246a18f4ac.jpg",
+                "path": null,
+                "size": 42.42,
+                "width": 540,
+                "height": 1000,
+                "sizeInBytes": 42422
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672.jpg",
+                "hash": "small_b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672",
+                "mime": "image/jpeg",
+                "name": "small_b9d647e36e7948cf24567a2f99a442246a18f4ac.jpg",
+                "path": null,
+                "size": 12.33,
+                "width": 270,
+                "height": 500,
+                "sizeInBytes": 12329
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672.jpg",
+                "hash": "medium_b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672",
+                "mime": "image/jpeg",
+                "name": "medium_b9d647e36e7948cf24567a2f99a442246a18f4ac.jpg",
+                "path": null,
+                "size": 24.78,
+                "width": 405,
+                "height": 750,
+                "sizeInBytes": 24781
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672.jpg",
+                "hash": "thumbnail_b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672",
+                "mime": "image/jpeg",
+                "name": "thumbnail_b9d647e36e7948cf24567a2f99a442246a18f4ac.jpg",
+                "path": null,
+                "size": 2.26,
+                "width": 84,
+                "height": 156,
+                "sizeInBytes": 2260
+              }
+            },
+            "hash": "b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 89.14,
+            "url": "/uploads/b9d647e36e7948cf24567a2f99a442246a18f4ac_8cb0b9e672.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T09:03:38.637Z",
+            "updatedAt": "2025-07-08T09:03:38.637Z",
+            "publishedAt": "2025-07-08T09:03:38.638Z"
+          }
+        },
+        {
+          "id": 27,
+          "name": "Ms Rosemary Kisembo",
+          "description": null,
+          "image": {
+            "id": 18,
+            "documentId": "uj6lnfyh8q5ti774k0u90pir",
+            "name": "7ae2fe273ec09a555bb1219f5355aa8abd305715.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 800,
+            "height": 1358,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/uploads/large_7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840.jpg",
+                "hash": "large_7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840",
+                "mime": "image/jpeg",
+                "name": "large_7ae2fe273ec09a555bb1219f5355aa8abd305715.jpg",
+                "path": null,
+                "size": 70.62,
+                "width": 589,
+                "height": 1000,
+                "sizeInBytes": 70618
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/uploads/small_7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840.jpg",
+                "hash": "small_7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840",
+                "mime": "image/jpeg",
+                "name": "small_7ae2fe273ec09a555bb1219f5355aa8abd305715.jpg",
+                "path": null,
+                "size": 25.26,
+                "width": 295,
+                "height": 500,
+                "sizeInBytes": 25259
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/uploads/medium_7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840.jpg",
+                "hash": "medium_7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840",
+                "mime": "image/jpeg",
+                "name": "medium_7ae2fe273ec09a555bb1219f5355aa8abd305715.jpg",
+                "path": null,
+                "size": 46.83,
+                "width": 442,
+                "height": 750,
+                "sizeInBytes": 46828
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/uploads/thumbnail_7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840.jpg",
+                "hash": "thumbnail_7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840",
+                "mime": "image/jpeg",
+                "name": "thumbnail_7ae2fe273ec09a555bb1219f5355aa8abd305715.jpg",
+                "path": null,
+                "size": 4.05,
+                "width": 92,
+                "height": 156,
+                "sizeInBytes": 4054
+              }
+            },
+            "hash": "7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 108.78,
+            "url": "/uploads/7ae2fe273ec09a555bb1219f5355aa8abd305715_51b7a40840.jpg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T09:03:38.674Z",
+            "updatedAt": "2025-07-08T09:03:38.674Z",
+            "publishedAt": "2025-07-08T09:03:38.675Z"
+          }
+        }
+      ]
+    },
+    "historyLegacy": {
+      "id": 9,
+      "title": "History & Legacy",
+      "description": "Since its establishment in 1966, the Bank of Uganda has played a vital role in shaping Uganda’s financial landscape. From issuing the first national currency to leading economic reforms, BoU has remained a cornerstone of stability, trust, and growth for the nation’s economy.",
+      "link": {
+        "id": 95,
+        "text": "Read More",
+        "link": "/history_legacy"
+      },
+      "items": [
+        {
+          "id": 23,
+          "title": "The Beginning",
+          "year": "1966",
+          "items": {
+            "id": 22,
+            "item1": "The Central Bank of Uganda is officially established on August 15, 1966.",
+            "item2": "Takes over the role of currency issuance from the East African Currency Board.",
+            "item3": "Begins operations, issuing and managing Uganda’s national currency."
+          }
+        },
+        {
+          "id": 24,
+          "title": "Early Growth",
+          "year": "1967",
+          "items": {
+            "id": 23,
+            "item1": "Launches Uganda’s first independent currency: the Uganda Shilling.",
+            "item2": "Begins setting monetary policy tailored to Uganda’s economy.",
+            "item3": "Develops internal capacity and expands financial supervision across the banking sector."
+          }
+        },
+        {
+          "id": 25,
+          "title": "Institutional Building",
+          "year": "1968",
+          "items": {
+            "id": 24,
+            "item1": "Establishes regulatory systems for commercial bank supervision.",
+            "item2": "Establishes early regulatory structures for financial institutions.",
+            "item3": "Lays foundation for long-term financial infrastructure growth."
+          }
+        }
+      ]
+    }
+  },
+  "meta": {}
+}

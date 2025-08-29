@@ -1,0 +1,435 @@
+{
+  "data": {
+    "id": 6,
+    "documentId": "qotxr0iuznb1qzdrrr73gfbl",
+    "createdAt": "2025-07-08T05:44:32.193Z",
+    "updatedAt": "2025-07-08T09:59:05.954Z",
+    "publishedAt": "2025-07-08T09:59:06.096Z",
+    "links": [
+      {
+        "id": 11,
+        "title": "Useful Links",
+        "items": [
+          {
+            "id": 42,
+            "text": "Partner Agencies",
+            "link": "/partner_agencies "
+          },
+          {
+            "id": 43,
+            "text": "Acts & Regulations",
+            "link": "/acts_regulations"
+          },
+          {
+            "id": 44,
+            "text": "Downloads",
+            "link": "/downloads"
+          },
+          {
+            "id": 45,
+            "text": "Accessibility Tools",
+            "link": "/accessibility_tools"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Quick Links",
+        "items": [
+          {
+            "id": 46,
+            "text": "Procurement",
+            "link": "/procurement"
+          },
+          {
+            "id": 47,
+            "text": "Careers",
+            "link": "/careers"
+          },
+          {
+            "id": 48,
+            "text": "FAQs",
+            "link": "faqs"
+          },
+          {
+            "id": 49,
+            "text": "BoU Services",
+            "link": "/bou_services"
+          }
+        ]
+      }
+    ],
+    "contactDetails": {
+      "id": 6,
+      "title": "Central Bank of Uganda",
+      "address": "Head Office, P.O Box 7120, Kampala, Uganda",
+      "phoneNumber": "Phone: (+256)-414-258-441/6",
+      "fax": " Fax: (+256)-41-4230878  ",
+      "email": "info@bou.or.ug"
+    },
+    "branding": {
+      "id": 6,
+      "description": "The Central Bank of the Republic of Uganda, committed to price stability, financial system stability, and promoting economic growth.",
+      "logo": {
+        "id": 2,
+        "documentId": "ardum0ow6xd5hd0jqy02ljtl",
+        "name": "5bce7cfca502000046e5d03e2fd19d8f6b99f738.png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1392,
+        "height": 1383,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "/uploads/large_5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38.png",
+            "hash": "large_5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38",
+            "mime": "image/png",
+            "name": "large_5bce7cfca502000046e5d03e2fd19d8f6b99f738.png",
+            "path": null,
+            "size": 725.84,
+            "width": 1000,
+            "height": 994,
+            "sizeInBytes": 725841
+          },
+          "small": {
+            "ext": ".png",
+            "url": "/uploads/small_5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38.png",
+            "hash": "small_5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38",
+            "mime": "image/png",
+            "name": "small_5bce7cfca502000046e5d03e2fd19d8f6b99f738.png",
+            "path": null,
+            "size": 236.78,
+            "width": 500,
+            "height": 497,
+            "sizeInBytes": 236781
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "/uploads/medium_5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38.png",
+            "hash": "medium_5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38",
+            "mime": "image/png",
+            "name": "medium_5bce7cfca502000046e5d03e2fd19d8f6b99f738.png",
+            "path": null,
+            "size": 455.11,
+            "width": 750,
+            "height": 745,
+            "sizeInBytes": 455112
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "/uploads/thumbnail_5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38.png",
+            "hash": "thumbnail_5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38",
+            "mime": "image/png",
+            "name": "thumbnail_5bce7cfca502000046e5d03e2fd19d8f6b99f738.png",
+            "path": null,
+            "size": 36.16,
+            "width": 157,
+            "height": 156,
+            "sizeInBytes": 36155
+          }
+        },
+        "hash": "5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 211.87,
+        "url": "/uploads/5bce7cfca502000046e5d03e2fd19d8f6b99f738_a9ba29ae38.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-08T05:33:18.248Z",
+        "updatedAt": "2025-07-08T05:33:18.248Z",
+        "publishedAt": "2025-07-08T05:33:18.249Z"
+      },
+      "socialMedia": [
+        {
+          "id": 6,
+          "name": "facebook",
+          "link": "/",
+          "icon": {
+            "id": 3,
+            "documentId": "rxes0o7lc7rtvvkfle2z9rvn",
+            "name": "Social.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 512,
+            "height": 513,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "/uploads/small_Social_39d3529592.png",
+                "hash": "small_Social_39d3529592",
+                "mime": "image/png",
+                "name": "small_Social.png",
+                "path": null,
+                "size": 13.12,
+                "width": 499,
+                "height": 500,
+                "sizeInBytes": 13123
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_Social_39d3529592.png",
+                "hash": "thumbnail_Social_39d3529592",
+                "mime": "image/png",
+                "name": "thumbnail_Social.png",
+                "path": null,
+                "size": 3.85,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 3849
+              }
+            },
+            "hash": "Social_39d3529592",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 2.56,
+            "url": "/uploads/Social_39d3529592.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T06:15:37.488Z",
+            "updatedAt": "2025-07-08T06:15:37.488Z",
+            "publishedAt": "2025-07-08T06:15:37.489Z"
+          }
+        },
+        {
+          "id": 7,
+          "name": "instagram",
+          "link": "/",
+          "icon": {
+            "id": 6,
+            "documentId": "zd747igq0tn5468jrwz95eb2",
+            "name": "Social.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 512,
+            "height": 513,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "/uploads/small_Social_29aa56c561.png",
+                "hash": "small_Social_29aa56c561",
+                "mime": "image/png",
+                "name": "small_Social.png",
+                "path": null,
+                "size": 34.67,
+                "width": 499,
+                "height": 500,
+                "sizeInBytes": 34667
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_Social_29aa56c561.png",
+                "hash": "thumbnail_Social_29aa56c561",
+                "mime": "image/png",
+                "name": "thumbnail_Social.png",
+                "path": null,
+                "size": 8.87,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 8867
+              }
+            },
+            "hash": "Social_29aa56c561",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 5.23,
+            "url": "/uploads/Social_29aa56c561.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T06:15:37.521Z",
+            "updatedAt": "2025-07-08T06:15:44.777Z",
+            "publishedAt": "2025-07-08T06:15:37.521Z"
+          }
+        },
+        {
+          "id": 8,
+          "name": "x",
+          "link": "/",
+          "icon": {
+            "id": 8,
+            "documentId": "jzomk4e58xdpc872d4go0k34",
+            "name": "X Icon 1.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 512,
+            "height": 513,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "/uploads/small_X_Icon_1_b0795e632a.png",
+                "hash": "small_X_Icon_1_b0795e632a",
+                "mime": "image/png",
+                "name": "small_X Icon 1.png",
+                "path": null,
+                "size": 31.74,
+                "width": 499,
+                "height": 500,
+                "sizeInBytes": 31742
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_X_Icon_1_b0795e632a.png",
+                "hash": "thumbnail_X_Icon_1_b0795e632a",
+                "mime": "image/png",
+                "name": "thumbnail_X Icon 1.png",
+                "path": null,
+                "size": 7.64,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 7639
+              }
+            },
+            "hash": "X_Icon_1_b0795e632a",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 4.42,
+            "url": "/uploads/X_Icon_1_b0795e632a.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T06:16:27.129Z",
+            "updatedAt": "2025-07-08T06:16:27.129Z",
+            "publishedAt": "2025-07-08T06:16:27.130Z"
+          }
+        },
+        {
+          "id": 9,
+          "name": "linkedIn",
+          "link": "/",
+          "icon": {
+            "id": 7,
+            "documentId": "hngp5cuchhpfqa4kqxrwu4hz",
+            "name": "Social.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 512,
+            "height": 513,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "/uploads/small_Social_97fc90ebb8.png",
+                "hash": "small_Social_97fc90ebb8",
+                "mime": "image/png",
+                "name": "small_Social.png",
+                "path": null,
+                "size": 18.01,
+                "width": 499,
+                "height": 500,
+                "sizeInBytes": 18013
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_Social_97fc90ebb8.png",
+                "hash": "thumbnail_Social_97fc90ebb8",
+                "mime": "image/png",
+                "name": "thumbnail_Social.png",
+                "path": null,
+                "size": 4.77,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 4774
+              }
+            },
+            "hash": "Social_97fc90ebb8",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 3.37,
+            "url": "/uploads/Social_97fc90ebb8.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T06:15:37.542Z",
+            "updatedAt": "2025-07-08T06:15:37.542Z",
+            "publishedAt": "2025-07-08T06:15:37.542Z"
+          }
+        },
+        {
+          "id": 10,
+          "name": "youtube",
+          "link": "/",
+          "icon": {
+            "id": 5,
+            "documentId": "vvs5gxfsdth38j45bt51067m",
+            "name": "Social.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 512,
+            "height": 534,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "/uploads/small_Social_9f1a78a1e3.png",
+                "hash": "small_Social_9f1a78a1e3",
+                "mime": "image/png",
+                "name": "small_Social.png",
+                "path": null,
+                "size": 23.7,
+                "width": 479,
+                "height": 500,
+                "sizeInBytes": 23699
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_Social_9f1a78a1e3.png",
+                "hash": "thumbnail_Social_9f1a78a1e3",
+                "mime": "image/png",
+                "name": "thumbnail_Social.png",
+                "path": null,
+                "size": 6.29,
+                "width": 150,
+                "height": 156,
+                "sizeInBytes": 6291
+              }
+            },
+            "hash": "Social_9f1a78a1e3",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 3.77,
+            "url": "/uploads/Social_9f1a78a1e3.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "createdAt": "2025-07-08T06:15:37.514Z",
+            "updatedAt": "2025-07-08T06:15:37.514Z",
+            "publishedAt": "2025-07-08T06:15:37.514Z"
+          }
+        }
+      ]
+    },
+    "subscribe": {
+      "id": 6,
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter for the latest updates and reports.",
+      "isSubsribeInputNeeded": true
+    },
+    "copyRight": {
+      "id": 6,
+      "title": "© 2025 Bank of Uganda. All rights reserved.",
+      "items": [
+        {
+          "id": 50,
+          "text": "Staff Login ",
+          "link": "/stafflogin "
+        },
+        {
+          "id": 51,
+          "text": "Privacy Policy",
+          "link": "/privacypolicy"
+        },
+        {
+          "id": 52,
+          "text": "Terms and Conditions",
+          "link": "/terms_conditions"
+        },
+        {
+          "id": 53,
+          "text": "SiteMap",
+          "link": "/sitemap"
+        }
+      ]
+    }
+  },
+  "meta": {}
+}
