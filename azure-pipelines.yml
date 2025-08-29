@@ -50,6 +50,6 @@ stages:
         kubernetesServiceConnection: bouaks-sc   # 👈 Kubernetes Service Connection
         namespace: frontend
         manifests: |
-          $(Build.SourcesDirectory)/k8s/frontend.yaml
+          $(Build.SourcesDirectory)/k8s/frontend.yml
         containers: |
           $(acrLoginServer)/frontend:$(Build.BuildId)
