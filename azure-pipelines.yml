@@ -25,6 +25,7 @@ stages:
         tags: |
           latest
           $(Build.BuildId)
+        arguments: --platform linux/amd64
 
 - stage: Deploy
   displayName: Deploy to AKS
