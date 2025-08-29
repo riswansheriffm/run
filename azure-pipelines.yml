@@ -2,10 +2,7 @@ trigger:
 - development
 
 variables:
-  acrName: bouacr
   acrLoginServer: bouacr.azurecr.io
-  aksName: bouaks
-  aksRG: bougroup
 
 stages:
 - stage: Build
@@ -22,8 +19,9 @@ stages:
       inputs:
         command: buildAndPush
         repository: frontend
-        dockerfile: frontend/Dockerfile
-        containerRegistry: $(acrName)
+        dockerfile: Dockerfile
+        buildContext: .
+        containerRegistry: bouacr-sc    # 👈 Docker Registry Service Connection
         tags: |
           latest
           $(Build.BuildId)
@@ -39,17 +37,17 @@ stages:
     - task: AzureCLI@2
       displayName: Set AKS Context
       inputs:
-        azureSubscription: 'bougroup'
+        azureSubscription: 'bougroup'   # 👈 azurerm service connection
         scriptType: bash
         scriptLocation: inlineScript
         inlineScript: |
-          az aks get-credentials --resource-group $(aksRG) --name $(aksName) --overwrite-existing
+          az aks get-credentials --resource-group bougroup --name bouaks --overwrite-existing
 
     - task: KubernetesManifest@1
       displayName: Deploy Frontend
       inputs:
         action: deploy
-        kubernetesServiceConnection: 'bougroup'
+        kubernetesServiceConnection: bouaks-sc   # 👈 Kubernetes Service Connection
         namespace: frontend
         manifests: |
           $(Build.SourcesDirectory)/k8s/frontend.yaml
