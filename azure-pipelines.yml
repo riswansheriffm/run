@@ -37,6 +37,6 @@ steps:
     kubernetesServiceConnection: bouaks-sc
     namespace: frontend
     manifests: |
-      k8s/frontend.yaml
+      k8s/frontend.yml
     containers: |
       $(acrName)/$(imageName):$(Build.BuildId)
