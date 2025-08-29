@@ -1,0 +1,57 @@
+trigger:
+- development
+
+variables:
+  acrName: bouacr
+  acrLoginServer: bouacr.azurecr.io
+  aksName: bouaks
+  aksRG: bougroup
+
+stages:
+- stage: Build
+  displayName: Build and Push Docker Image
+  jobs:
+  - job: BuildPush
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+    - checkout: self
+
+    - task: Docker@2
+      displayName: Build and Push Frontend
+      inputs:
+        command: buildAndPush
+        repository: frontend
+        dockerfile: frontend/Dockerfile
+        containerRegistry: $(acrName)
+        tags: |
+          latest
+          $(Build.BuildId)
+
+- stage: Deploy
+  displayName: Deploy to AKS
+  dependsOn: Build
+  jobs:
+  - job: DeployK8s
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+    - task: AzureCLI@2
+      displayName: Set AKS Context
+      inputs:
+        azureSubscription: 'bougroup'
+        scriptType: bash
+        scriptLocation: inlineScript
+        inlineScript: |
+          az aks get-credentials --resource-group $(aksRG) --name $(aksName) --overwrite-existing
+
+    - task: KubernetesManifest@1
+      displayName: Deploy Frontend
+      inputs:
+        action: deploy
+        kubernetesServiceConnection: 'bougroup'
+        namespace: frontend
+        manifests: |
+          $(Build.SourcesDirectory)/k8s/frontend.yaml
+        containers: |
+          $(acrLoginServer)/frontend:$(Build.BuildId)
