@@ -19,7 +19,8 @@ stages:
       inputs:
         command: buildAndPush
         repository: frontend
-        dockerfile: frontend/Dockerfile
+        dockerfile: Dockerfile
+        buildContext: .
         containerRegistry: bouacr-sc    # 👈 Docker Registry Service Connection
         tags: |
           latest
