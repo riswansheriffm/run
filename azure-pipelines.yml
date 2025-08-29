@@ -1,55 +1,51 @@
 trigger:
 - development
 
+pool:
+  vmImage: 'ubuntu-latest'
+
 variables:
-  acrLoginServer: bouacr.azurecr.io
+  ACR_NAME: bouacr
+  IMAGE_NAME: frontend
+  NAMESPACE: frontend
 
 stages:
 - stage: Build
-  displayName: Build and Push Docker Image
+  displayName: Build and Push Image
   jobs:
-  - job: BuildPush
-    pool:
-      vmImage: ubuntu-latest
+  - job: DockerBuild
     steps:
-    - checkout: self
+    - task: DockerInstaller@0
+      displayName: Install Docker CLI
 
-    - task: Docker@2
-      displayName: Build and Push Frontend
-      inputs:
-        command: buildAndPush
-        repository: frontend
-        dockerfile: Dockerfile
-        buildContext: .
-        containerRegistry: bouacr-sc    # 👈 Docker Registry Service Connection
-        tags: |
-          latest
-          $(Build.BuildId)
+    - script: |
+        echo "Logging into ACR..."
+        az acr login --name $(ACR_NAME)
+
+        echo "Creating buildx builder..."
+        docker buildx create --use --name mybuilder || true
+
+        echo "Building and pushing image..."
+        docker buildx build \
+          --platform linux/amd64 \
+          -t $(ACR_NAME).azurecr.io/$(IMAGE_NAME):latest \
+          -t $(ACR_NAME).azurecr.io/$(IMAGE_NAME):$(Build.BuildId) \
+          --push .
+      displayName: Build & Push Docker Image
 
 - stage: Deploy
   displayName: Deploy to AKS
   dependsOn: Build
   jobs:
-  - job: DeployK8s
-    pool:
-      vmImage: ubuntu-latest
+  - job: K8SDeploy
     steps:
-    - task: AzureCLI@2
-      displayName: Set AKS Context
-      inputs:
-        azureSubscription: 'bougroup'   # 👈 azurerm service connection
-        scriptType: bash
-        scriptLocation: inlineScript
-        inlineScript: |
-          az aks get-credentials --resource-group bougroup --name bouaks --overwrite-existing
-
     - task: KubernetesManifest@1
       displayName: Deploy Frontend
       inputs:
         action: deploy
-        kubernetesServiceConnection: bouaks-sc   # 👈 Kubernetes Service Connection
-        namespace: frontend
+        kubernetesServiceConnection: bouaks-sc
+        namespace: $(NAMESPACE)
         manifests: |
-          $(Build.SourcesDirectory)/k8s/frontend.yaml
+          k8s/frontend.yaml
         containers: |
-          $(acrLoginServer)/frontend:$(Build.BuildId)
+          $(ACR_NAME).azurecr.io/$(IMAGE_NAME):$(Build.BuildId)
