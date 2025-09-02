@@ -1,15 +1,10 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: frontend
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
   namespace: frontend
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: frontend
@@ -19,17 +14,23 @@ spec:
         app: frontend
     spec:
       containers:
-      - name: frontend
-        image: bouacr.azurecr.io/frontend
-        ports:
-        - containerPort: 80
-        resources:
-          requests:
-            cpu: "1"
-            memory: "2Gi"
-          limits:
-            cpu: "1"
-            memory: "2Gi"
+        - name: frontend
+          image: bouacr.azurecr.io/frontend:$(Build.BuildId)
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 10
 ---
 apiVersion: v1
 kind: Service
@@ -41,5 +42,5 @@ spec:
   selector:
     app: frontend
   ports:
-  - port: 80
-    targetPort: 80
+    - port: 80
+      targetPort: 80
