@@ -33,7 +33,7 @@ stages:
         dockerfile: $(dockerfilePath)
         arguments: --platform linux/amd64
         tags: |
-          $(tag)
+          $(Build.BuildId)
           latest
 
 - stage: Deploy
