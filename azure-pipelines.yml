@@ -57,6 +57,9 @@ stages:
               azureResourceGroup: 'bougroup'
               kubernetesCluster: 'bouaks'
               namespace: frontend
-              command: set
-              arguments: image deployment/frontend frontend=bouacr.azurecr.io/$(imageRepository):$(tag)
+              command: apply
+              useConfigurationFile: true
+              configuration: k8s/frontend.yml
+              containers: |
+                bouacr.azurecr.io/frontend:$(Build.BuildId)
 
