@@ -59,7 +59,7 @@ stages:
               namespace: frontend
               command: apply
               useConfigurationFile: true
-              configuration: k8s/frontend.yml
+              configuration: $(Build.SourcesDirectory)/k8s/frontend.yml
               containers: |
                 bouacr.azurecr.io/frontend:$(Build.BuildId)
 
