@@ -20,13 +20,15 @@ stages:
     - task: Docker@2
       displayName: Build and Push Frontend
       inputs:
-        command: buildAndPush
-        repository: $(imageRepository)
-        dockerfile: $(dockerfilePath)
-        containerRegistry: bouacr-sc    # ✅ ACR service connection
-        tags: |
-          $(tag)
-          latest
+       command: buildAndPush
+       repository: $(imageRepository)
+       dockerfile: $(dockerfilePath)
+       containerRegistry: bouacr-sc    # ✅ ACR service connection
+       arguments: --platform linux/arm64
+       tags: |
+        $(tag)
+        latest
+
 
 - stage: Deploy
   displayName: Deploy to AKS
