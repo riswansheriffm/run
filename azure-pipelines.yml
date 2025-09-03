@@ -24,7 +24,7 @@ stages:
        repository: $(imageRepository)
        dockerfile: $(dockerfilePath)
        containerRegistry: bouacr-sc    # ✅ ACR service connection
-       arguments: --platform linux/arm64
+       arguments: --platform linux/amd64
        tags: |
         $(tag)
         latest
