@@ -29,7 +29,6 @@ stages:
         $(tag)
         latest
 
-
 - stage: Deploy
   displayName: Deploy to AKS
   dependsOn: Build
