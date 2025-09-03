@@ -58,6 +58,5 @@ stages:
               kubernetesCluster: 'bouaks'
               namespace: frontend
               command: set
-              arguments: deployment/frontend -n frontend --record
-              containers: |
-                bouacr.azurecr.io/$(imageRepository):$(tag)
+              arguments: image deployment/frontend frontend=bouacr.azurecr.io/$(imageRepository):$(tag)
+
