@@ -8,6 +8,7 @@ variables:
   containerRegistry: bouacr.azurecr.io   # ACR login server
 
 stages:
+# ------------------ BUILD & PUSH ------------------
 - stage: Build
   displayName: Build & Push Stage
   jobs:
@@ -16,36 +17,41 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
-    # 1️⃣ Setup Docker Buildx
+    # 1️⃣ Setup QEMU + Buildx
     - script: |
         docker run --privileged --rm tonistiigi/binfmt --install all
-        docker buildx create --use --name mybuilder
+        docker buildx create --name mybuilder --use || docker buildx use mybuilder
         docker buildx inspect --bootstrap
       displayName: Setup Buildx
 
-    # 2️⃣ Build & Push (using bouacr-sc for login automatically)
+    # 2️⃣ Login to ACR using service connection
     - task: Docker@2
-      displayName: Build and Push Frontend
+      displayName: Docker Login
       inputs:
-        command: buildAndPush
-        containerRegistry: bouacr-sc       # ✅ ACR service connection
-        repository: $(imageRepository)
-        dockerfile: $(dockerfilePath)
-        arguments: --platform linux/amd64
-        tags: |
-          $(Build.BuildId)
-          latest
+        command: login
+        containerRegistry: bouacr-sc   # ✅ Your ACR service connection
 
+    # 3️⃣ Build & Push ARM64 image
+    - script: |
+        docker buildx build \
+          --platform linux/arm64 \
+          -t $(containerRegistry)/$(imageRepository):$(Build.BuildId) \
+          -t $(containerRegistry)/$(imageRepository):latest \
+          -f $(dockerfilePath) \
+          . --push
+      displayName: Build & Push ARM64 Image
+
+# ------------------ DEPLOY ------------------
 - stage: Deploy
   displayName: Deploy to AKS
   dependsOn: Build
   jobs:
   - job: Deploy
     steps:
-    # 1️⃣ Replace tag placeholder in manifest
+    # 1️⃣ Replace placeholder with BuildId in K8s manifest
     - script: |
         sed -i "s|__TAG__|$(Build.BuildId)|g" k8s/frontend.yml
-        echo "Updated image tag in manifest:"
+        echo "✅ Updated image tag in manifest:"
         cat k8s/frontend.yml
       displayName: Update image tag in manifest
 
@@ -61,4 +67,3 @@ stages:
         command: apply
         useConfigurationFile: true
         configuration: $(Build.SourcesDirectory)/k8s/frontend.yml
-
