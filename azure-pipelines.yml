@@ -24,18 +24,21 @@ stages:
         docker buildx inspect --bootstrap
       displayName: Setup Buildx
 
-    # 2️⃣ Login to ACR & Build/Push ARM64 image
+    # 2️⃣ Login to ACR using service connection
+    - task: Docker@2
+      displayName: Docker Login
+      inputs:
+        command: login
+        containerRegistry: bouacr-sc   # ✅ Your ACR service connection
+
+    # 3️⃣ Build & Push ARM64 image
     - script: |
-        echo "$(DOCKER_PASSWORD)" | docker login $(containerRegistry) -u "$(DOCKER_USERNAME)" --password-stdin
         docker buildx build \
           --platform linux/arm64 \
-          -t $(containerRegistry)/$(imageRepository):$(tag) \
+          -t $(containerRegistry)/$(imageRepository):$(Build.BuildId) \
           -t $(containerRegistry)/$(imageRepository):latest \
           -f $(dockerfilePath) \
           . --push
-      env:
-        DOCKER_USERNAME: $(servicePrincipalId)   # from your ACR service connection
-        DOCKER_PASSWORD: $(servicePrincipalKey)
       displayName: Build & Push ARM64 Image
 
 # ------------------ DEPLOY ------------------
