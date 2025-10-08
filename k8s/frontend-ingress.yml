@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: frontend-ingress
+  namespace: frontend
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod   # only if using cert-manager
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+      - bouapps.xyz       # 🔒 replace with your real domain
+    secretName: frontend-tls
+  rules:
+  - host: bouapps.xyz
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: frontend-service
+            port:
+              number: 80
+
