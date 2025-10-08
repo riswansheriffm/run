@@ -18,6 +18,9 @@ spec:
           image: bouacr.azurecr.io/frontend:__TAG__
           ports:
             - containerPort: 80
+          env:
+            - name: REACT_APP_API_URL
+              value: "http://strapi-service.backend.svc.cluster.local:1337"
           resources:
             requests:
               cpu: "100m"
