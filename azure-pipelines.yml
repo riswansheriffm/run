@@ -31,15 +31,16 @@ stages:
         command: login
         containerRegistry: bouacr-sc   # ✅ Your ACR service connection
 
-    # 3️⃣ Build & Push ARM64 image
+    # 3️⃣ Build & Push ARM64 image with backend API URL
     - script: |
         docker buildx build \
           --platform linux/arm64 \
           -t $(containerRegistry)/$(imageRepository):$(Build.BuildId) \
           -t $(containerRegistry)/$(imageRepository):latest \
+          --build-arg REACT_APP_API_URL=http://strapi-service.backend.svc.cluster.local:1337 \
           -f $(dockerfilePath) \
           . --push
-      displayName: Build & Push ARM64 Image
+      displayName: Build & Push ARM64 Image (With Backend URL)
 
 # ------------------ DEPLOY ------------------
 - stage: Deploy
