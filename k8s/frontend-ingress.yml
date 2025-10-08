@@ -4,22 +4,17 @@ metadata:
   name: frontend-ingress
   namespace: frontend
   annotations:
-    cert-manager.io/cluster-issuer: letsencrypt-prod   # only if using cert-manager
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
-  tls:
-  - hosts:
-      - bouapps.xyz       # 🔒 replace with your real domain
-    secretName: frontend-tls
   rules:
-  - host: bouapps.xyz
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: frontend-service
-            port:
-              number: 80
-
+    - host: app.bouapps.xyz
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: frontend-service
+                port:
+                  number: 80
