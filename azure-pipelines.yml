@@ -37,7 +37,7 @@ stages:
           --platform linux/arm64 \
           -t $(containerRegistry)/$(imageRepository):$(Build.BuildId) \
           -t $(containerRegistry)/$(imageRepository):latest \
-          --build-arg REACT_APP_API_URL=http://strapi-service.backend.svc.cluster.local:1337 \
+          --build-arg REACT_APP_API_URL=https://app.bouapps.xyz \
           -f $(dockerfilePath) \
           . --push
       displayName: Build & Push ARM64 Image (With Backend URL)
