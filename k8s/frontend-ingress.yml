@@ -4,14 +4,14 @@ metadata:
   name: frontend-ingress
   namespace: frontend
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
     - host: app.bouapps.xyz
       http:
         paths:
-          # Frontend (React)
+          # Frontend React app
           - path: /
             pathType: Prefix
             backend:
@@ -20,8 +20,17 @@ spec:
                 port:
                   number: 80
 
-          # Backend (Strapi API)
-          - path: /api(/|$)(.*)
+          # Backend Strapi API (cross-namespace call)
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: strapi-service
+                port:
+                  number: 1337
+
+          # Optional: Strapi Admin panel
+          - path: /admin
             pathType: Prefix
             backend:
               service:
