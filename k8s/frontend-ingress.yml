@@ -11,7 +11,7 @@ spec:
     - host: app.bouapps.xyz
       http:
         paths:
-          # Frontend React app
+          # Frontend app (React)
           - path: /
             pathType: Prefix
             backend:
@@ -20,7 +20,7 @@ spec:
                 port:
                   number: 80
 
-          # Backend Strapi API (cross-namespace call)
+          # Strapi API route
           - path: /api
             pathType: Prefix
             backend:
@@ -29,7 +29,7 @@ spec:
                 port:
                   number: 1337
 
-          # Optional: Strapi Admin panel
+          # Strapi admin route
           - path: /admin
             pathType: Prefix
             backend:
