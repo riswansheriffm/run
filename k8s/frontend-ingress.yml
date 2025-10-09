@@ -5,15 +5,14 @@ metadata:
   namespace: frontend
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /$2
-    nginx.ingress.kubernetes.io/use-regex: "true"
 spec:
   ingressClassName: nginx
   rules:
     - host: app.bouapps.xyz
       http:
         paths:
-          # 1️⃣ Frontend React app
-          - path: /?(.*)
+          # Frontend (React)
+          - path: /
             pathType: Prefix
             backend:
               service:
@@ -21,11 +20,11 @@ spec:
                 port:
                   number: 80
 
-          # 2️⃣ Proxy backend (Strapi) API calls
+          # Backend (Strapi API)
           - path: /api(/|$)(.*)
             pathType: Prefix
             backend:
               service:
-                name: strapi-service    # backend namespace service
+                name: strapi-service
                 port:
                   number: 1337
