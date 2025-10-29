@@ -1,0 +1,26 @@
+substitutions:
+  _TAG: "latest"
+
+steps:
+  # Step 1: Build Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'us-central1-docker.pkg.dev/integral-sol-475317-i0/frontend-repo/react:${_TAG}', '.' ]
+
+  # Step 2: Push Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'push', 'us-central1-docker.pkg.dev/integral-sol-475317-i0/frontend-repo/react:${_TAG}' ]
+
+  # Step 3: Update Kubernetes deployment
+  - name: 'gcr.io/cloud-builders/kubectl'
+    args:
+      [
+        'set', 'image', 'deployment/react-frontend',
+        'react-frontend=us-central1-docker.pkg.dev/integral-sol-475317-i0/frontend-repo/react:${_TAG}',
+        '--namespace=default'
+      ]
+    env:
+      - 'CLOUDSDK_COMPUTE_REGION=us-central1'
+      - 'CLOUDSDK_CONTAINER_CLUSTER=frontend-cluster'
+
+images:
+  - 'us-central1-docker.pkg.dev/integral-sol-475317-i0/frontend-repo/react:${_TAG}'
