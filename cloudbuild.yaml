@@ -5,15 +5,15 @@ substitutions:
   _TAG: "latest"
 
 steps:
-  # Step 1: Build Docker image
+  #  Build Docker image
   - name: 'gcr.io/cloud-builders/docker'
     args: [ 'build', '-t', 'us-central1-docker.pkg.dev/integral-sol-475317-i0/frontend-repo/react:${_TAG}', '.' ]
 
-  # Step 2: Push Docker image
+  #  Push Docker image
   - name: 'gcr.io/cloud-builders/docker'
     args: [ 'push', 'us-central1-docker.pkg.dev/integral-sol-475317-i0/frontend-repo/react:${_TAG}' ]
 
-  # Step 3: Update Kubernetes deployment
+  # Update Kubernetes deployment
   - name: 'gcr.io/cloud-builders/kubectl'
     args:
       [
